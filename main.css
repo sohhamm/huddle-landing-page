@@ -58,14 +58,22 @@ button:hover {
   color: white;
 }
 .icon {
-  margin-left: auto;
+  margin-left: 1.3em;
+  color: #ffffff;
+  border: solid 2px white;
+  border-radius: 100%;
+  padding: 10px;
 }
 .icon:hover {
   background-color: var(--secondary-color);
 }
 
 footer > div {
-  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+footer {
+  margin-top: -2em;
 }
 
 @media (max-width: 400px) {
