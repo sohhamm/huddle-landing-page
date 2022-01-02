@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -12,26 +10,19 @@
       href="./assets/jpg/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./main.css" />
-
     <title>Huddle landing page</title>
-
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header class="nav">
-      <img src="./assets/svg/logo.svg" alt="Huddle Logo" />
+      <img src="./assets/svg/logo.svg" alt="Huddle Logo" id="logo" />
     </header>
 
     <main class="main-container">
-      <img src="./assets/svg/illustration-mockups.svg" alt="illustration" />
+      <img
+        src="./assets/svg/illustration-mockups.svg"
+        alt="illustration"
+        class="main-image"
+      />
 
       <div class="info">
         <h1>Build The Community Your Fans Will Love</h1>
@@ -47,21 +38,10 @@
 
     <footer>
       <div>
-        <img
-          src="./assets/svg/fb.svg"
-          alt="facebook"
-          class="icon"
-          style="fill: #fff"
-        />
-        <img src="./assets/svg/t.svg" alt="twitter" class="icon" />
-        <img src="./assets/svg/ig.svg" alt="instagram" class="icon" />
+        <img src="./assets/svg/fb.svg" alt="facebook" class="icon" id="fb" />
+        <img src="./assets/svg/t.svg" alt="twitter" class="icon" id="t" />
+        <img src="./assets/svg/ig.svg" alt="instagram" class="icon" id="ig" />
       </div>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Soham Sarkar</a>.
-      </p>
     </footer>
   </body>
 </html>
